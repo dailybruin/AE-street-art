@@ -1,0 +1,44 @@
+.header{
+}
+
+
+.header_art p {
+    margin-top: 40vh;
+    font-size: 30px;
+    text-align: center;
+    display: inline-block;
+    -ms-transform:rotate(-45deg); /* IE9 */
+    -moz-transform: rotate(-45deg);  /* FF3.5/3.6 */
+    -o-transform: rotate(-45deg);  /* Opera 10.5 */
+    -webkit-transform: rotate(-45deg);  /* Saf3.1+ */
+    transform: rotate(-45deg);  /* Newer browsers */
+}
+
+.description_text {
+    text-align: center;
+}
+
+.box {
+    position: absolute;
+    display: block;
+    margin: auto;
+    width: 40px;
+    height: 40px;
+    background: gray;
+    position: relative;
+    -webkit-transition: all 300ms ease-in;
+    -ms-transform: rotate(45deg) skew(45deg); /* IE9 */
+    -moz-transform: rotate(45deg) skew(45deg);  /* FF3.5/3.6 */
+    -o-transform: rotate(45deg) skew(45deg);  /* Opera 10.5 */
+    -webkit-transform: rotate(45deg) skew(45deg);  /* Saf3.1+ */
+    transform: rotate(45deg) skew(45deg); /* Standard syntax */
+    box-shadow: 5px 5px;
+}
+
+ .line {
+    position: absolute;
+    width: 70vw;
+    height: 10px;
+    margin: 20px 5vw;
+    background: red;
+ }
