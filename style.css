@@ -15,7 +15,8 @@
 }
 
 .description_text {
-    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 17px;
 }
 
 .box {
@@ -35,10 +36,30 @@
     box-shadow: 5px 5px;
 }
 
- .line {
+.line {
     position: absolute;
     width: 70vw;
     height: 10px;
     margin: 20px 5vw;
     background: red;
- }
+}
+
+.story .story_image {
+    border-top: solid 7px #ff0036;
+    border-bottom: solid 7px #006eff;
+}
+
+.story img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+}
+
+.story h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.story p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 17px;
+}
