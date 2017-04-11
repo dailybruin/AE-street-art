@@ -1,6 +1,21 @@
-.header{
+body h1 {
+    text-align: center;
 }
 
+.article_title{
+    text-align: center;
+}
+
+.main-title {
+    font-size: 50px;
+}
+
+.top_section {
+    margin: 20px 0px;
+    height: 45vh;
+    background-image: url("top.PNG");
+    background-repeat: repeat-y;
+}
 
 .header_art p {
     margin-top: 40vh;
@@ -23,6 +38,8 @@
     position: absolute;
     display: block;
     margin: auto;
+    margin-top: 35px;
+    margin-bottom: 35px;
     width: 40px;
     height: 40px;
     background: gray;
@@ -36,17 +53,20 @@
     box-shadow: 5px 5px;
 }
 
-.line {
-    position: absolute;
-    width: 70vw;
-    height: 10px;
-    margin: 20px 5vw;
-    background: red;
+.separator-1{
+    background: #ff0036; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(-90deg, #ff0036, #006eff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(-90deg, #ff0036, #006eff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(-90deg, #ff0036, #006eff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(-90deg, #ff0036, #006eff); /* Standard syntax */
 }
 
-.story .story_image {
-    border-top: solid 7px #ff0036;
-    border-bottom: solid 7px #006eff;
+.separator-2{
+    background: #006eff; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(-90deg, #006eff, #ff0036); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(-90deg, #006eff, #ff0036); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(-90deg, #006eff, #ff0036); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(-90deg, #006eff, #ff0036); /* Standard syntax */
 }
 
 .story img {
@@ -55,11 +75,22 @@
     max-width: 100%;
 }
 
+.story_img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+}
+
 .story h1 {
     font-family: 'Source Sans Pro', sans-serif;
+    font-size: 50px;
 }
 
 .story p {
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 17px;
+    font-size: 18px;
+}
+
+.story_text {
+    padding: 10px 15% !important;
 }
