@@ -2,12 +2,16 @@ body h1 {
     text-align: center;
 }
 
+.max-width-60 {
+    max-width: 50vw !important;
+}
+
 .header-location {
 	display: block;
 	margin: 0 auto;
 	position: relative;
 	width: 100%;
-	height: 45vh;
+	height: 50vh;
 	overflow: hidden;
 }
 .listContainer {
@@ -38,6 +42,10 @@ body h1 {
 }
 .titleBlue {
 	color: #006eff;
+}
+
+.by-line {
+    text-align: center;
 }
 
 .article_title{
