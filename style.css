@@ -1,9 +1,6 @@
-body h1 {
-    text-align: center;
-}
 
 .max-width-60 {
-    max-width: 50vw !important;
+    max-width: 100%;
 }
 
 .header-location {
@@ -50,12 +47,10 @@ body h1 {
     text-align: center;
 }
 
-.article_title{
-    text-align: center;
-}
 
 .main-title {
     font-size: 50px;
+    text-align: center;
 }
 
 .top_section {
@@ -118,14 +113,14 @@ body h1 {
 }
 
 .story img {
-    display: block;
-    margin: 20px auto;
+    margin-top: 20px;
     max-width: 100%;
 }
 
 .story_img {
     display: block;
-    margin: 20px auto;
+    margin: 0 auto;
+    margin-top: 20px;
     max-width: 100%;
 }
 
@@ -141,4 +136,20 @@ body h1 {
 
 .story_text {
     padding: 10px 15% !important;
+}
+
+.credit {
+    font-size: 1.1em;
+    color: gray;
+    vertical-align: bottom;
+}
+
+.align-right {
+    text-align: right;
+    align: right;
+}
+
+.align-left{
+    text-align: left;
+    align:left;
 }
